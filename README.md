@@ -4,6 +4,7 @@
 
 This project is an end-to-end machine learning application that predicts laptop prices based on hardware and software specifications. It demonstrates the complete pipeline from data preprocessing and feature engineering to model training and deployment using Streamlit.
 
+
 🧠 Problem Statement
 
 Laptop prices vary significantly depending on specifications like RAM, CPU, GPU, and storage. This project aims to:
