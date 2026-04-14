@@ -1,7 +1,6 @@
 # 💻 2. LAPTOP PRICE PREDICTION
 
-```markdown
-# Laptop Price Prediction App
+---
 
 ## Overview
 
@@ -71,13 +70,6 @@ User Input → Feature Processing → Model Prediction → Price Output
 
 ---
 
-## How to Run
-
-```bash
-git clone <repo-link>
-cd laptop-price-app
-pip install -r requirements.txt
-streamlit run app.py
 🎯 Key Highlights
 
 -Built a complete ML pipeline from raw data to deployment
@@ -88,6 +80,8 @@ streamlit run app.py
 
 -Demonstrates real-world regression problem solving
 
+---
+
 🔮 Future Improvements
 
 1.Add model explainability (SHAP values)
@@ -97,3 +91,15 @@ streamlit run app.py
 3.Deploy on cloud (Streamlit Cloud / Render)
 
 4.Add price range classification
+
+
+## How to Run
+
+```bash
+git clone <repo-link>
+cd laptop-price-app
+pip install -r requirements.txt
+streamlit run app.py
+
+
+
