@@ -1,85 +1,83 @@
-# 💻 Laptop-price-prediction-app
+# 💻 2. LAPTOP PRICE PREDICTION
 
-📌 Overview
+```markdown
+# Laptop Price Prediction App
 
-This project is an end-to-end machine learning application that predicts laptop prices based on hardware and software specifications. It demonstrates the complete pipeline from data preprocessing and feature engineering to model training and deployment using Streamlit.
+## Overview
 
+This project is a machine learning-based web application that predicts laptop prices based on specifications such as brand, RAM, CPU, and storage. It demonstrates regression modeling and deployment using Streamlit.
 
-🧠 Problem Statement
+---
 
-Laptop prices vary significantly depending on specifications like RAM, CPU, GPU, and storage. This project aims to:
+## Objectives
 
-Predict laptop prices accurately
+- Predict laptop prices accurately  
+- Understand how features impact pricing  
+- Build an end-to-end regression system  
 
-Help users understand how features affect price
+---
 
-Demonstrate real-world regression modeling
+## Dataset
 
-⚙️ Tech Stack
+- Laptop dataset with specifications and prices  
 
-1.Python
+---
 
-2.Pandas & NumPy
+## Data Processing Steps
 
-3.Scikit-learn
+- Feature engineering (CPU type, OS grouping)  
+- Handling categorical variables  
+- Log transformation of target variable  
+- Data preprocessing and scaling  
 
-4.Streamlit
+---
 
-5.Joblib
+## Model Details
 
-🔍 Features
+- Model: Regression model  
+- Target: Log-transformed price  
+- Final output: Exponential transformation applied  
 
-✔ Interactive UI using Streamlit
+---
 
-✔ Real-time price prediction
+## Features Used
 
-✔ Handles categorical + numerical inputs
+- Company  
+- Laptop Type  
+- Screen Size  
+- RAM  
+- Weight  
+- Touchscreen & IPS  
+- Resolution  
+- CPU Type  
+- GPU  
+- Operating System  
+- HDD & SSD  
 
-✔ Feature-engineered inputs (CPU type, OS grouping, etc.)
+---
 
-✔ Log-transformed model output for better accuracy
+## Application Features
 
+- Interactive UI  
+- Real-time price prediction  
+- Handles categorical + numerical inputs  
+- Displays predicted price  
 
-📊 Input Features
+---
 
-The model uses the following features:
+## How It Works
 
--Company (Brand)
+User Input → Feature Processing → Model Prediction → Price Output  
 
--Laptop Type
+---
 
--Screen Size (Inches)
+## How to Run
 
--RAM
-
--Weight
-
--Touchscreen & IPS Display
-
--Screen Resolution (x_res, y_res)
-
--CPU Type
-
--GPU Brand
-
--Operating System
-
--HDD & SSD Storage
-
-🧪 How It Works
-
-1.User selects laptop specifications from sidebar
-
-2.Inputs are converted into structured format
-
-3.Data is passed to trained ML model
-
-4.Model predicts log(price)
-
-5.Final price is calculated using exponential transformation
-
-Output is displayed instantly
-
+```bash
+git clone <repo-link>
+cd laptop-price-app
+pip install -r requirements.txt
+streamlit run app.py
 🎯 Key Highlights
 
 -Built a complete ML pipeline from raw data to deployment
